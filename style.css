@@ -92,13 +92,12 @@ footer{
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: azure;
       }
-     span{
+     span{margin-top: 20px;
+        margin-left: 280px;
         display: inline-block
         
      }
-      .separaresto{
-        margin-left: 100px;
-      }
+      
       .footer {
         border-top: 1px solid #e03333;
       }
