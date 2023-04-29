@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blanchedalmond;
+    font-family:sans-serif;
+    padding: 90px 20px 0px;
+
+}
+
+h2{
+    margin-bottom: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+
+.header{
+    background-color: rgb(204, 239, 67);
+    height: 80px;
+    position:fixed;
+    width:100%;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+
+}
+
+.nav-link {
+    color:white;
+    text-decoration: none;
+
+}
+
+.logo {
+    font:30px;
+    font-weight: bold;
+    padding: 0 40 px;
+    line-height:80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav-menu {
+    display: flex;
+    margin-right: 40px
+
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px ;
+    line-height: 80px;
+    width:max-content;
+}
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+
+}
+.nav-menu-link:hover {
+    background-color: rgb(162, 149, 157);
+    transition: 0.5s;
+}
+
+.imagenarriba {
+    float: left;
+    height: 1000px;
+    margin-right: 10px;
+}
+footer{
+
+        min-height: 70px;
+        background-color: #de2b2b;
+        background-image: -moz-linear-gradient(top, #191919, #000000);
+        background-image: -o-linear-gradient(top, #191919, #000000);
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #191919), color-stop(1, #000000));
+        background-image: -webkit-linear-gradient(#191919, #000000);
+        background-image: linear-gradient(top, #191919, #000000);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#191919', endColorStr='#000000');
+        border-top: 1px solid rgba(50, 50, 50, 0.3);
+        width: 100%;
+        position: relative;
+        clear: both;
+        margin-top: 0px;
+        padding-top: 0px;
+        overflow: visible;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: azure;
+      }
+     span{
+        display: inline-block
+        
+     }
+      .separaresto{
+        margin-left: 100px;
+      }
+      .footer {
+        border-top: 1px solid #e03333;
+      }
+      
+      .post-footer {
+        width: 950px;
+        margin: 0 auto;
+      }
+   
